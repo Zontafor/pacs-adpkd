@@ -1,0 +1,17 @@
+[project]
+name = "pacs-adpkd"
+version = "0.1.0"
+description = "ADPKD PACS crawler and confidential T2 indexer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydicom>=2.4.4",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pacs_adpkd*"]
