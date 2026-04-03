@@ -3,6 +3,7 @@ name = "pacs-adpkd"
 version = "0.1.0"
 description = "ADPKD PACS crawler and confidential T2 indexer"
 readme = "README.md"
+license = {text = "Proprietary - See LICENSE-NEXQ-CONFIDENTIAL-NONCOMMERCIAL.md"}
 requires-python = ">=3.10"
 dependencies = [
   "pydicom>=2.4.4",
@@ -11,6 +12,9 @@ dependencies = [
 [build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+license-files = ["LICENSE-NEXQ-CONFIDENTIAL-NONCOMMERCIAL.md"]
 
 [tool.setuptools.packages.find]
 where = ["."]

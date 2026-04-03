@@ -52,3 +52,10 @@ python scripts/reorganize_halt_data.py \
 - `--transfer-mode` supports `copy`, `move`, and `hardlink`.
 - Scan type is inferred from DICOM metadata (`SeriesDescription`, `ProtocolName`, `SequenceName`) and normalized for folder-safe naming.
 - When multiple scans map to the same date and scan-type folder, unique suffixes are added automatically.
+
+## License
+
+This repository is licensed under:
+- `LICENSE-NEXQ-CONFIDENTIAL-NONCOMMERCIAL.md`
+
+Licensing contact: `license@nexq.us`
