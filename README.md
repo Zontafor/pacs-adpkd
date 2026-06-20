@@ -42,7 +42,7 @@ python scripts/reorganize_halt_data.py \
   --halt-root /path/to/HALT_Data \
   --output-root /path/to/reorganized_data \
   --csv-out /path/to/reorganized_data/t2_index.csv \
-  --patients A1041373 A1111060 A1111111 A1128977 A1251362 \
+  --patients AXXXXXXX AXXXXXXX AXXXXXXX AXXXXXXX AXXXXXXX \
   --workers 12 \
   --transfer-mode copy
 ```
